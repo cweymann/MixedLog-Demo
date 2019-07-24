@@ -1,0 +1,32 @@
+{
+  "name": "MixedLog",
+  "version": "0.1.0",
+  "summary": "A short description of MixedLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/clausweymann/MixedLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "clausweymann": "c.weymann@avm.de"
+  },
+  "source": {
+    "git": "https://github.com/clausweymann/MixedLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "dependencies": {
+    "MixedErrorLog": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "APPLICATION_EXTENSION_API_ONLY": "YES"
+  },
+  "source_files": "MixedLog/Classes/**/*",
+  "swift_version": "5.0"
+}

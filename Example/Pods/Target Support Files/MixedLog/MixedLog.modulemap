@@ -1,0 +1,6 @@
+framework module MixedLog {
+  umbrella header "MixedLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,10 @@
+source 'git@gitlab.avm.de:ENT-Apps-IOS/AVMPodSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'file:///Users/claus/Workspace/PrivateSpecs.git'
+
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '10.0'
 
 target 'MixedLog_Example' do
   pod 'MixedLog', :path => '../'
