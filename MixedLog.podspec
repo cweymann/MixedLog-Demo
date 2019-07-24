@@ -31,7 +31,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
   s.dependency 'MixedErrorLog'
-  s.pod_target_xcconfig = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES'}
 
   s.source_files = 'MixedLog/Classes/**/*'
   

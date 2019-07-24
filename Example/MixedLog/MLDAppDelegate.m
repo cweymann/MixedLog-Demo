@@ -7,11 +7,16 @@
 //
 
 #import "MLDAppDelegate.h"
+@import CocoaLumberjack;
+@import MixedErrorLog;
 
 @implementation MLDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+#if defined DEBUG
+	[DDLog addLogger:[DDTTYLogger sharedInstance]];
+#endif
     // Override point for customization after application launch.
     return YES;
 }
@@ -36,6 +41,10 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+	[ObjcErrorLog error:@"applicationDidBecomeActive(objc)"];
+	[ObjcErrorLog xerror:@"applicationDidBecomeActive(xobjc)"];
+	[[[SwiftErrorLog alloc] init] error:@"applicationDidBecomeActive(swift)"];
+	[[[SwiftErrorLog alloc] init] xerror:@"applicationDidBecomeActive(xswift)"];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
