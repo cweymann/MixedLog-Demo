@@ -2,7 +2,7 @@ PODS:
   - CocoaLumberjack/Core (3.5.3)
   - CocoaLumberjack/Swift (3.5.3):
     - CocoaLumberjack/Core
-  - MixedErrorLog (0.1.1):
+  - MixedErrorLog (0.1.2):
     - CocoaLumberjack/Swift
   - MixedLog (0.1.0):
     - MixedErrorLog
@@ -23,9 +23,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
-  MixedErrorLog: f0848fee41944853813f827f02554d12eea30a56
+  MixedErrorLog: 3519ba780ea804166e56a409a801ca82f3c5207f
   MixedLog: d9536458693074b1b78e009f566beacb94f35630
 
-PODFILE CHECKSUM: e6efc4b00412eec5504f0e164e51e7eea332a4e3
+PODFILE CHECKSUM: 1c0d0d71a594e64c40eeb6ea2423614986717e76
 
 COCOAPODS: 1.7.4
