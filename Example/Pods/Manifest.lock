@@ -8,23 +8,24 @@ PODS:
     - MixedErrorLog
 
 DEPENDENCIES:
+  - MixedErrorLog (from `../../MixedErrorLog`)
   - MixedLog (from `../`)
 
 SPEC REPOS:
-  file:///Users/claus/Workspace/PrivateSpecs.git:
-    - MixedErrorLog
   https://github.com/cocoapods/specs.git:
     - CocoaLumberjack
 
 EXTERNAL SOURCES:
+  MixedErrorLog:
+    :path: "../../MixedErrorLog"
   MixedLog:
     :path: "../"
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
-  MixedErrorLog: 834e5fcfc64bc0e47706fb604662985985f2b176
+  MixedErrorLog: f0848fee41944853813f827f02554d12eea30a56
   MixedLog: d9536458693074b1b78e009f566beacb94f35630
 
-PODFILE CHECKSUM: 0414733c3a0163c7f0c73c2297c300d77fa768be
+PODFILE CHECKSUM: e6efc4b00412eec5504f0e164e51e7eea332a4e3
 
 COCOAPODS: 1.7.4
