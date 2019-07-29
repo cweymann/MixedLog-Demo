@@ -1,8 +1,8 @@
 {
   "name": "MixedLog",
   "version": "0.1.0",
-  "summary": "A short description of MixedLog.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Demo mixing swift and obj-c in dependencies => Problems",
+  "description": "The purpose of this library is to demostrate problems with Dependencies that mix Obj-C and Swift",
   "homepage": "https://github.com/clausweymann/MixedLog",
   "license": {
     "type": "MIT",
